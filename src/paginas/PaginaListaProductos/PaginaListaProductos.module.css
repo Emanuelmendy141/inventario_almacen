@@ -1,0 +1,35 @@
+.pagina-lista-productos {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #000000;
+}
+
+.pagina-lista-productos__titulo {
+  font-size: 2.5rem;
+  color: hsl(216, 100%, 50%);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.pagina-lista-productos__controles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.pagina-lista-productos__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.pagina-lista-productos__sin-resultados {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-top: 50px;
+}

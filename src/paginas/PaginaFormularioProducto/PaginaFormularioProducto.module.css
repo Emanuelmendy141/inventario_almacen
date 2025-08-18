@@ -1,0 +1,28 @@
+.pagina-formulario-producto {
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.pagina-formulario-producto__titulo {
+  font-size: 2.5rem;
+  color: hsl(216, 100%, 50%);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.formulario-producto {
+  background-color: #9b9b9b;
+  border: 1px solid hsl(216, 100%, 50%);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formulario-producto .boton {
+  margin-top: 10px;
+  align-self: flex-start;
+}

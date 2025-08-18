@@ -1,0 +1,53 @@
+.pagina-lista-pedidos {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pagina-lista-pedidos__titulo {
+  font-size: 2.5rem;
+  color: hsl(216, 100%, 50%);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.pagina-lista-pedidos__controles {
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.tabla-pedidos {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #000000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  color: #ddd;
+}
+
+.tabla-pedidos__cabecera {
+  background-color: #007bff;
+  color: white;
+}
+
+.tabla-pedidos__encabezado {
+  padding: 12px 15px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.tabla-pedidos__fila:nth-child(even) {
+  background-color: #000000;
+  color: #ddd;
+}
+
+.tabla-pedidos__dato {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabla-pedidos__cuerpo tr:last-child .tabla-pedidos__dato {
+  border-bottom: none;
+}

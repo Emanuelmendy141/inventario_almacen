@@ -1,0 +1,47 @@
+.boton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-weight: bold;
+}
+
+.boton:hover {
+  transform: translateY(-2px);
+}
+
+.boton--primario {
+  background-color: #007bff;
+  color: white;
+}
+
+.boton--primario:hover {
+  background-color: #0056b3;
+}
+
+.boton--secundario {
+  background-color: #6c757d;
+  color: white;
+}
+
+.boton--secundario:hover {
+  background-color: #5a6268;
+}
+
+.boton--peligro {
+  background-color: #dc3545;
+  color: white;
+}
+
+.boton--peligro:hover {
+  background-color: #c82333;
+}
+.boton--exito {
+  background-color: #28a745;
+  color: white;
+}
+.boton--exito:hover {
+  background-color: #218838;
+}

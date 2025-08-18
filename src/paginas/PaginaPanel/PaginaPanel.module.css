@@ -1,0 +1,56 @@
+.panel {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #000000;
+}
+
+.panel__titulo {
+  font-size: 2.5rem;
+  color: hsl(216, 100%, 50%);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.panel__resumen-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.panel__resumen-tarjeta {
+  background-color: hsl(216, 100%, 50%);
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.panel__resumen-tarjeta-titulo {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.panel__resumen-tarjeta-valor {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.panel__lista-bajo-stock {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+  text-align: left;
+}
+
+.panel__lista-bajo-stock li {
+  margin-bottom: 3px;
+  color: #ffffff;
+  font-size: 0.8rem;
+}
